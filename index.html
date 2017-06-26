@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Midterm Chat</title>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js" language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" align="center">
+            <h1>Chat</h1>
+    	</div>
+        <div class="well" id="message-output" align="left">
+            <p class="well">Welcome. Messages are shown here.</p>
+        </div>
+    	<div class="table-responsive">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <form name="input" role="form" action=""  onSubmit="return false;">
+                                <input type="text" class="form-control" id="message-input">
+                            </form>
+                        </td>
+                        <td>
+                            <button type="submit" form="input" class="btn btn-default" onClick="sendMessage();">Send</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</div>
+
+</body>
+</html>

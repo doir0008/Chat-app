@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		color:#FF3;
+		background:#006;
+	}
+	
+	sub{
+		color:#577;
+		
+	}
+	
+	.jumbotron {
+		background:#e46;
+		padding-bottom:0px;
+	}
+	
+	.jumbotron h1 {
+		font-size:80px;
+		opacity:0.5;
+		padding:0px;
+		margin-top:-25px;
+		margin-bottom:-30px;
+		
+	}
+	.well{
+		padding-top:0px;
+		margin-top:-15px;
+	}
+	#message-output {
+		color:#6FF;
+		background:#000;
+		min-height:55px;
+		max-height:200px;
+		padding:0px;
+		margin:0px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	
+	#message-output p {
+		background:#000;
+		border-color:#333;
+		font-size:12px;
+		padding:0px 5%;
+		margin:0px;
+	}
+	
+	
+	table {
+		background:#e46;
+	}
+	
+	.form-control {
+		background:#000;
+		color:#6FF;
+	}
+    
+	.btn {
+		width:100%;
+		background:#e46;
+		color:#6FF;
+	}
+	
+	.btn:hover, .btn:active, .btn:focus {
+		background:#e46;
+		/*background:#000;*/
+	}
+	
+	
